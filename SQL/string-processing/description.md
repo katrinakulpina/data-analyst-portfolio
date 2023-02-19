@@ -1,5 +1,5 @@
 ### Задание 1
-Источниками данных являются таблицы DE_LOG и DE_IP. Тестовые варианты таблиц можно найти в файлах [create_de_log.sql](https://github.com/katrinakulpina/data-analyst-portfolio/blob/main/SQL/string-processing/create_de_log.sql) и [create_de_ip.sql](https://github.com/katrinakulpina/data-analyst-portfolio/blob/main/SQL/string-processing/create_de_ip.sql).
+Источниками данных являются таблицы DE_LOG и DE_IP. Тестовые варианты таблиц можно найти в файлах [create_de_log](https://github.com/katrinakulpina/data-analyst-portfolio/blob/main/SQL/string-processing/create_de_log.sql) и [create_de_ip](https://github.com/katrinakulpina/data-analyst-portfolio/blob/main/SQL/string-processing/create_de_ip.sql).
 
 Данные в исходных таблицах повреждены. Необходимо разделить их и построить структурированную таблицу посещений:
 ```sql
