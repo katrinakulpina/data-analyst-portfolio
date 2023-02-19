@@ -1,3 +1,5 @@
+-- Create tables and make constraints
+
 CREATE TABLE passengers (
 	passenger_id INTEGER CONSTRAINT pk_passengers_passengerid PRIMARY KEY,
 	first_name VARCHAR(50) NOT NULL,
@@ -65,6 +67,9 @@ ALTER TABLE carriages
 	ADD CONSTRAINT fk_carriages_classes FOREIGN KEY (class_id)
 		REFERENCES classes(class_id);
 	
+	
+-- Fill-in the tables with some data
+
 INSERT INTO passengers (passenger_id, first_name, last_name, passport, birth_date, email, phone)
 VALUES (100, 'Jack', 'Sparrow', '1234 567890', TO_DATE('1956-04-01', 'YYYY-MM-DD'), 'JSPARROW', '874-19-278');
 INSERT INTO passengers (passenger_id, first_name, last_name, passport, birth_date, email, phone)
@@ -105,10 +110,3 @@ VALUES (501, 101, 110, TO_DATE('2022-10-18', 'YYYY-MM-DD'), 1, 6);
 INSERT INTO booking (booking_id, passenger_id, route_num, departure_date, carriage_num, seat_num)
 VALUES (502, 101, 120, TO_DATE('2022-10-26', 'YYYY-MM-DD'), 3, 30);
 	
-
-
-
-
-
-
-
