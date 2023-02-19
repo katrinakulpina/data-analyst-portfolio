@@ -19,3 +19,4 @@ CREATE TABLE LOG_REPORT (
   BROWSER VARCHAR(10) 
 )
 ```
+SQL-запросы, решающие поставленные задачи, можно найти в файле [quieries](https://github.com/katrinakulpina/data-analyst-portfolio/blob/main/SQL/string-processing/queries.sql).
