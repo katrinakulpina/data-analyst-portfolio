@@ -8,4 +8,4 @@
   - [Постановка задачи](https://github.com/katrinakulpina/portfolio/blob/main/SQL/string-processing/task_description.md)
   - [Решение](https://github.com/katrinakulpina/portfolio/blob/main/SQL/string-processing/queries.sql)
   
-## Python
+## [Python](https://github.com/katrinakulpina/portfolio/tree/main/Python)
