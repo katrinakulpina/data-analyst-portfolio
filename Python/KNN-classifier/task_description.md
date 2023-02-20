@@ -9,6 +9,7 @@
 Проделать шаги многоклассовой классификации с помощью библиотеки scikit-learn.
 
 
+
 ### Реализация
 - В файле [download_data.sh](https://github.com/katrinakulpina/portfolio/blob/main/Python/KNN-classifier/download_data.sh) содержится Bash-скрипт, загружающий данные с удаленного сервера в рабочую директорию. В качестве данных используются цифры из датасета Street View House Numbers ([SVHN](http://ufldl.stanford.edu/housenumbers/)).
 - В файле [dataset.py](https://github.com/katrinakulpina/portfolio/blob/main/Python/KNN-classifier/dataset.py) определена функция `load_svhn`, которая извлекает из загруженных файлов данные для тренировки и тестирования и возвращает их как numpy arrays. 
