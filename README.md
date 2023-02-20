@@ -9,3 +9,4 @@
   - [Решение](https://github.com/katrinakulpina/portfolio/blob/main/SQL/string-processing/queries.sql)
   
 ## [Python](https://github.com/katrinakulpina/portfolio/tree/main/Python)
+- [KNN-классификатор изображений](https://github.com/katrinakulpina/portfolio/tree/main/Python/KNN-classifier) — реализация бинарной и многоклассовой классификации с помощью билиотек NumPy и scikit-learn в Jupyter-ноутбуке.
