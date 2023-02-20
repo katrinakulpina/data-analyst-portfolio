@@ -53,6 +53,7 @@ FROM (
 ON l.ip = ip.ip;
 
 
+
 -- Задание 2
 CREATE TABLE log_report (
 	region VARCHAR(30),
